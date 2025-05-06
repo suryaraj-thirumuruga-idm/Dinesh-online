@@ -66,41 +66,53 @@
 // ++ --
 // value ? "true" : "false";
 
-if(10<4){
-       console.log("runing...");
-}
-else if((40<60)&&(60<7)){
-       console.log("and done...");
+// if(10<4){
+//        console.log("runing...");
+// }
+
+// else if((40<60)&&(60<7)){
+//        console.log("and done...");
+// // }
+
+// else if((40<50)||(60<50)){
+//        console.log("fiunal runing..");
        
-}
+// }
 
-else if((40<50)||(60<50)){
-       console.log("fiunal runing..");
-       
-}
-
-else{
-       console.log("wrong");
-       
-}
+// else{
+//        console.log("wrong");
+// }
 
 
 
+// if(40<50){
+//        if(50<70){
+//               if(40<60){
+//                      console.log("runing...");
+                     
+//               }
+//        }
+// }
 
+// let a =10;
 
+// switch(a){
+//        case 0:
+//               console.log("Zero..");
+//               break;
+//        case 1 :
+//               console.log("One");
+//               break;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+//        case 2:
+//               console.log("two");
+//               break;
+//        case 3:
+//               console.log("three");
+//               break;
+//        default:
+//               console.log("Error...");
+           
+// }
 
 
