@@ -116,3 +116,109 @@
 // }
 
 
+// let array = [1,2,3,'s',"suryaraj"];
+
+// console.log(array);
+// console.log(array.concat(array));
+// console.log(array.length);
+// console.log(array)
+
+// array[5] = "dinesh";
+// console.log(array);
+
+// array.push(99)
+// array.push(100)
+// array.push(101)
+// array.pop()
+
+// array.unshift(71)
+// array.unshift(72)
+// array.unshift(73)
+// array.shift()
+
+// array.splice(5,0,"kia","BMW")
+
+// console.log(array);
+
+// let arr = 
+// [
+// [1,2,3],[4,5,6],[6,8,9,[6,7,8,[9,10,11]]]
+// ]
+
+// console.log(arr[2][3][3][2]);
+
+
+
+
+// const ar = [1,2,3,4]
+
+// ar.push("Surya")
+
+// console.log(ar);
+
+
+// let obj = {
+//        Name : "Surya",
+//        Age:21,
+//        City :"erode",
+//        brother:{
+//               Name:"Karthick"
+//        }
+// }
+// console.log(obj.brother.Name);
+
+let ArrObj =[
+       {Name :"Surya1",Age:21},
+       {Name :"Surya2",Age:22},
+       {Name :"Surya3",Age:23},
+       {Name :"Surya4",Age:24},
+       {Name :"Surya5",Age:25},
+]
+
+// console.log(ArrObj[3].Name);
+
+// for(let i=0;i<10;i++){
+//        console.log(i);
+// }
+let a=10 ;
+
+// while(a<20){
+//        a++
+//        console.log(a);
+       
+// }
+
+// do{
+//        a++
+// console.log(a);
+// if(a==15){
+//        break
+// }
+
+// }while(a<20)
+
+
+// for(let i=0;i<ArrObj.length;i++){
+//        console.log(ArrObj[i]);
+       
+// }
+
+for(let b in ArrObj){
+       console.log(b);  
+}
+
+ArrObj.forEach((i)=>{
+       console.log(i);
+       
+})
+
+ArrObj.map((i)=>{
+console.log(i);
+
+})
+
+
+
+
+
+
