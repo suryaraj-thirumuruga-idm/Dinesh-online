@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+</head>
+<body>
+       
+       <div id="parent">
+<h1 id="first">Dinesh</h1><h2 id="second">Sister</h2>
+       </div>
+
+</body>
+</html>
+
+<script>
+let parent = document.getElementById('parent');
+let first = document.getElementById('first')
+let second = document.getElementById('second')
+
+console.log(first.parentNode.nodeName);
+console.log(parent.children.length);
+console.log(first.nextSibling);
+console.log(second.previousSibling);
+
+
+
+
+</script>

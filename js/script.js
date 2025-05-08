@@ -203,19 +203,22 @@ let a=10 ;
        
 // }
 
-for(let b in ArrObj){
-       console.log(b);  
-}
+// for(let b in ArrObj){
+//        console.log(b);  
+// }
 
-ArrObj.forEach((i)=>{
-       console.log(i);
+// ArrObj.forEach((i)=>{
+//        console.log(i);
        
-})
+// })
 
-ArrObj.map((i)=>{
-console.log(i);
+// ArrObj.map((i)=>{
+// console.log(i);
 
-})
+// })
+
+
+
 
 
 
